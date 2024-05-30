@@ -31,4 +31,6 @@ This Tic Tac Toe game is a web-based implementation of the classic two-player ga
 - `style1.css`: The CSS file that styles the game.
 - `script1.js`: The JavaScript file that contains the game logic.
 
-# Link of the project: 
+# Link of the project: https://github.com/Meghavathjyothibai/PRODIGY_WD_03
+
+# Scrrenshot of the Website  
