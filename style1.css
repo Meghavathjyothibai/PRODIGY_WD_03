@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, skyblue, white);
+}
+html {
+    font-size: 16px;
+}
+.wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container {
+    width: 50vmin; /* Adjusted size */
+    height: 50vmin; /* Adjusted size */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vmin; /* Adjusted gap */
+}
+.button-option {
+    background: #ffffff;
+    height: 15vmin; /* Adjusted size */
+    width: 15vmin; /* Adjusted size */
+    border: none;
+    border-radius: 6px; /* Adjusted radius */
+    font-size: 8vmin; /* Adjusted font size */
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#restart {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    background-color: #0a0027;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    margin: 1em auto 0 auto;
+    display: block;
+}
+.popup {
+    background: linear-gradient(135deg, skyblue, white);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em; /* Adjusted gap */
+    font-size: 4vmin; /* Adjusted font size */
+}
+#new-game {
+    font-size: 0.8em;
+    padding: 0.3em 0.5em;
+    background-color: #0a0027;
+    color: #ffffff;
+    border-radius: 0.2em;
+    border: none;
+}
+#message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+}
+.popup.hide {
+    display: none;
+}
