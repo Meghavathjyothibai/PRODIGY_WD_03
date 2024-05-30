@@ -33,4 +33,6 @@ This Tic Tac Toe game is a web-based implementation of the classic two-player ga
 
 # Link of the project: https://github.com/Meghavathjyothibai/PRODIGY_WD_03
 
-# Scrrenshot of the Website  
+# Screenshot of the Website  
+![Screenshot_20240530_093351](https://github.com/Meghavathjyothibai/PRODIGY_WD_03/assets/168762488/86d767e9-0c60-4826-80c3-ff0397750151)
+
